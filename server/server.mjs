@@ -155,6 +155,7 @@ function proxyToGis(req, res, url) {
     path: targetPath,
     method: req.method,
     headers: { ...req.headers, host: GIS_API_URL.host },
+    family: 6,
   };
   const proxyReq = http.request(options, (proxyRes) => {
     res.writeHead(proxyRes.statusCode ?? 502, proxyRes.headers);
