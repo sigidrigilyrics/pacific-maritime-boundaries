@@ -1,4 +1,4 @@
-export const GIS = "/api/gis";
+export const GIS = (import.meta.env.VITE_GIS_API_URL ?? "") + "/api";
 
 export const LAYER_CATEGORIES = [
   "Boundary",
