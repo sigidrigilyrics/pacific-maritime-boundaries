@@ -142,7 +142,10 @@ function serveStatic(req, res, url) {
   fs.createReadStream(spaIndex).pipe(res);
 }
 
-const GIS_API_URL = new URL(process.env.GIS_API_URL || "http://localhost:8000");
+const GIS_API_URL = (() => {
+  try { return new URL(process.env.GIS_API_URL || "http://localhost:8000"); }
+  catch { return new URL("http://localhost:8000"); }
+})();
 
 function proxyToGis(req, res, url) {
   const targetPath = "/api" + url.pathname.slice("/api/gis".length) + url.search;
