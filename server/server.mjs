@@ -180,6 +180,6 @@ const server = http.createServer((req, res) => {
   serveStatic(req, res, url);
 });
 
-server.listen(port, "localhost", () => {
-  console.log(`Pacific Maritime Boundaries full-stack server running at http://localhost:${port}`);
+server.listen(port, "0.0.0.0", () => {
+  console.log(`Pacific Maritime Boundaries full-stack server running at http://0.0.0.0:${port}`);
 });
