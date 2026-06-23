@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import http from "node:http";
+import https from "node:https";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -149,15 +150,15 @@ const GIS_API_URL = (() => {
 
 function proxyToGis(req, res, url) {
   const targetPath = "/api" + url.pathname.slice("/api/gis".length) + url.search;
+  const isHttps = GIS_API_URL.protocol === "https:";
   const options = {
     hostname: GIS_API_URL.hostname,
-    port: Number(GIS_API_URL.port) || (GIS_API_URL.protocol === "https:" ? 443 : 80),
+    port: Number(GIS_API_URL.port) || (isHttps ? 443 : 80),
     path: targetPath,
     method: req.method,
     headers: { ...req.headers, host: GIS_API_URL.host },
-    family: 6,
   };
-  const proxyReq = http.request(options, (proxyRes) => {
+  const proxyReq = (isHttps ? https : http).request(options, (proxyRes) => {
     res.writeHead(proxyRes.statusCode ?? 502, proxyRes.headers);
     proxyRes.pipe(res);
   });
