@@ -1,0 +1,767 @@
+{
+  "countries": [
+    {
+      "id": "cook-islands",
+      "name": "Cook Islands",
+      "code": "CK",
+      "flag": "🇨🇰",
+      "capital": "Avarua",
+      "region": "Polynesia",
+      "eezArea": "1,960,027 sq km",
+      "treaties": 5,
+      "highSeasPockets": 1,
+      "ecsStatus": "Recommendations adopted",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "Completed",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 58,
+        "y": 62,
+        "w": 8,
+        "h": 12,
+        "tone": "cyan"
+      },
+      "summary": "A mature maritime boundaries profile with deposited EEZ materials and strong pathway completion.",
+      "related": [
+        "Niue",
+        "French Polynesia",
+        "American Samoa"
+      ]
+    },
+    {
+      "id": "fiji",
+      "name": "Fiji",
+      "code": "FJ",
+      "flag": "🇫🇯",
+      "capital": "Suva",
+      "region": "Melanesia",
+      "eezArea": "1,282,978 sq km",
+      "treaties": 6,
+      "highSeasPockets": 0,
+      "ecsStatus": "Partial submission",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "Completed",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 42,
+        "y": 70,
+        "w": 12,
+        "h": 14,
+        "tone": "cyan"
+      },
+      "summary": "Regional hub with extensive boundary coordination and active data publication.",
+      "related": [
+        "Tonga",
+        "Vanuatu",
+        "Wallis & Futuna"
+      ]
+    },
+    {
+      "id": "kiribati",
+      "name": "Kiribati",
+      "code": "KI",
+      "flag": "🇰🇮",
+      "capital": "South Tarawa",
+      "region": "Micronesia",
+      "eezArea": "3,441,810 sq km",
+      "treaties": 4,
+      "highSeasPockets": 2,
+      "ecsStatus": "Under review",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 57,
+        "y": 43,
+        "w": 16,
+        "h": 17,
+        "tone": "purple"
+      },
+      "summary": "Large ocean estate spanning multiple island groups and boundary relationships.",
+      "related": [
+        "Marshall Islands",
+        "Tuvalu",
+        "Tokelau"
+      ]
+    },
+    {
+      "id": "marshall-islands",
+      "name": "Marshall Islands",
+      "code": "MH",
+      "flag": "🇲🇭",
+      "capital": "Majuro",
+      "region": "Micronesia",
+      "eezArea": "1,774,280 sq km",
+      "treaties": 4,
+      "highSeasPockets": 1,
+      "ecsStatus": "Currently under development",
+      "depositedStatus": "Yes (03/05/2016)",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 43,
+        "y": 18,
+        "w": 14,
+        "h": 20,
+        "tone": "cyan"
+      },
+      "summary": "Priority boundary program with active ECS pathway and deposited EEZ material.",
+      "related": [
+        "Micronesia",
+        "Nauru",
+        "Kiribati"
+      ]
+    },
+    {
+      "id": "micronesia",
+      "name": "Micronesia",
+      "code": "FM",
+      "flag": "🇫🇲",
+      "capital": "Palikir",
+      "region": "Micronesia",
+      "eezArea": "2,996,419 sq km",
+      "treaties": 5,
+      "highSeasPockets": 1,
+      "ecsStatus": "Desktop study",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "Completed",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 18,
+        "y": 28,
+        "w": 24,
+        "h": 16,
+        "tone": "cyan"
+      },
+      "summary": "Wide EEZ footprint across the western Pacific with several settled neighbor boundaries.",
+      "related": [
+        "Palau",
+        "Marshall Islands",
+        "Guam"
+      ]
+    },
+    {
+      "id": "nauru",
+      "name": "Nauru",
+      "code": "NR",
+      "flag": "🇳🇷",
+      "capital": "Yaren",
+      "region": "Micronesia",
+      "eezArea": "320,000 sq km",
+      "treaties": 2,
+      "highSeasPockets": 0,
+      "ecsStatus": "No submission",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "Completed",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 48,
+        "y": 42,
+        "w": 7,
+        "h": 10,
+        "tone": "cyan"
+      },
+      "summary": "Compact EEZ profile with clear deposit history and regional treaty links.",
+      "related": [
+        "Kiribati",
+        "Marshall Islands"
+      ]
+    },
+    {
+      "id": "niue",
+      "name": "Niue",
+      "code": "NU",
+      "flag": "🇳🇺",
+      "capital": "Alofi",
+      "region": "Polynesia",
+      "eezArea": "316,584 sq km",
+      "treaties": 3,
+      "highSeasPockets": 0,
+      "ecsStatus": "Completed",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "Completed",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 62,
+        "y": 72,
+        "w": 8,
+        "h": 12,
+        "tone": "green"
+      },
+      "summary": "Small island state with high pathway completion and neighboring treaty coverage.",
+      "related": [
+        "Cook Islands",
+        "Tonga",
+        "Samoa"
+      ]
+    },
+    {
+      "id": "palau",
+      "name": "Palau",
+      "code": "PW",
+      "flag": "🇵🇼",
+      "capital": "Ngerulmud",
+      "region": "Micronesia",
+      "eezArea": "603,978 sq km",
+      "treaties": 1,
+      "highSeasPockets": 0,
+      "ecsStatus": "Not started",
+      "depositedStatus": "Draft",
+      "boundaryStatus": "Not Started",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 3,
+        "y": 34,
+        "w": 8,
+        "h": 10,
+        "tone": "cyan"
+      },
+      "summary": "Western Pacific profile with pending pathway work and neighboring data needs.",
+      "related": [
+        "Micronesia",
+        "Guam"
+      ]
+    },
+    {
+      "id": "papua-new-guinea",
+      "name": "Papua New Guinea",
+      "code": "PG",
+      "flag": "🇵🇬",
+      "capital": "Port Moresby",
+      "region": "Melanesia",
+      "eezArea": "2,402,288 sq km",
+      "treaties": 4,
+      "highSeasPockets": 1,
+      "ecsStatus": "Submission lodged",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 18,
+        "y": 50,
+        "w": 24,
+        "h": 17,
+        "tone": "cyan"
+      },
+      "summary": "Complex western boundary environment with active treaty and ECS records.",
+      "related": [
+        "Solomon Islands",
+        "Australia",
+        "Micronesia"
+      ]
+    },
+    {
+      "id": "samoa",
+      "name": "Samoa",
+      "code": "WS",
+      "flag": "🇼🇸",
+      "capital": "Apia",
+      "region": "Polynesia",
+      "eezArea": "131,812 sq km",
+      "treaties": 3,
+      "highSeasPockets": 0,
+      "ecsStatus": "Completed",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "Completed",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 56,
+        "y": 61,
+        "w": 8,
+        "h": 9,
+        "tone": "cyan"
+      },
+      "summary": "Polynesian boundary profile with strong deposit and legislative coverage.",
+      "related": [
+        "American Samoa",
+        "Tokelau",
+        "Tonga"
+      ]
+    },
+    {
+      "id": "solomon-islands",
+      "name": "Solomon Islands",
+      "code": "SB",
+      "flag": "🇸🇧",
+      "capital": "Honiara",
+      "region": "Melanesia",
+      "eezArea": "1,597,000 sq km",
+      "treaties": 2,
+      "highSeasPockets": 1,
+      "ecsStatus": "Under review",
+      "depositedStatus": "Draft",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 32,
+        "y": 56,
+        "w": 13,
+        "h": 14,
+        "tone": "purple"
+      },
+      "summary": "Active boundary work connecting Melanesian neighbors and deposited materials.",
+      "related": [
+        "Papua New Guinea",
+        "Vanuatu",
+        "New Caledonia"
+      ]
+    },
+    {
+      "id": "tonga",
+      "name": "Tonga",
+      "code": "TO",
+      "flag": "🇹🇴",
+      "capital": "Nuku'alofa",
+      "region": "Polynesia",
+      "eezArea": "659,558 sq km",
+      "treaties": 3,
+      "highSeasPockets": 0,
+      "ecsStatus": "Recommendations adopted",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "Completed",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 54,
+        "y": 72,
+        "w": 9,
+        "h": 13,
+        "tone": "amber"
+      },
+      "summary": "Treaty-rich Polynesian profile with maturing ECS and publication pathways.",
+      "related": [
+        "Fiji",
+        "Niue",
+        "Samoa"
+      ]
+    },
+    {
+      "id": "tuvalu",
+      "name": "Tuvalu",
+      "code": "TV",
+      "flag": "🇹🇻",
+      "capital": "Funafuti",
+      "region": "Polynesia",
+      "eezArea": "751,797 sq km",
+      "treaties": 2,
+      "highSeasPockets": 1,
+      "ecsStatus": "Desktop study",
+      "depositedStatus": "Draft",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 52,
+        "y": 54,
+        "w": 8,
+        "h": 10,
+        "tone": "cyan"
+      },
+      "summary": "Climate-sensitive boundaries portfolio with high seas declaration work.",
+      "related": [
+        "Kiribati",
+        "Fiji",
+        "Tokelau"
+      ]
+    },
+    {
+      "id": "vanuatu",
+      "name": "Vanuatu",
+      "code": "VU",
+      "flag": "🇻🇺",
+      "capital": "Port Vila",
+      "region": "Melanesia",
+      "eezArea": "663,251 sq km",
+      "treaties": 3,
+      "highSeasPockets": 0,
+      "ecsStatus": "Submitted",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "Completed",
+      "unclosStatus": "Party",
+      "map": {
+        "x": 36,
+        "y": 64,
+        "w": 10,
+        "h": 13,
+        "tone": "purple"
+      },
+      "summary": "Deposited and treaty-active profile with New Caledonia and Fiji relationships.",
+      "related": [
+        "Fiji",
+        "Solomon Islands",
+        "New Caledonia"
+      ]
+    },
+    {
+      "id": "tokelau",
+      "name": "Tokelau",
+      "code": "TK",
+      "flag": "🇹🇰",
+      "capital": "Nukunonu",
+      "region": "Polynesia",
+      "eezArea": "318,990 sq km",
+      "treaties": 1,
+      "highSeasPockets": 0,
+      "ecsStatus": "No data",
+      "depositedStatus": "No data",
+      "boundaryStatus": "No Data",
+      "unclosStatus": "New Zealand territory",
+      "map": {
+        "x": 62,
+        "y": 53,
+        "w": 8,
+        "h": 9,
+        "tone": "cyan"
+      },
+      "summary": "Territorial profile with dependent-status data and neighboring pathway gaps.",
+      "related": [
+        "Samoa",
+        "Kiribati",
+        "American Samoa"
+      ]
+    },
+    {
+      "id": "new-caledonia",
+      "name": "New Caledonia",
+      "code": "NC",
+      "flag": "🇳🇨",
+      "capital": "Noumea",
+      "region": "Melanesia",
+      "eezArea": "1,422,543 sq km",
+      "treaties": 2,
+      "highSeasPockets": 0,
+      "ecsStatus": "France submission",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "France",
+      "map": {
+        "x": 31,
+        "y": 70,
+        "w": 10,
+        "h": 13,
+        "tone": "purple"
+      },
+      "summary": "French Pacific territory with regional boundary and ECS reference material.",
+      "related": [
+        "Vanuatu",
+        "Fiji",
+        "Solomon Islands"
+      ]
+    },
+    {
+      "id": "french-polynesia",
+      "name": "French Polynesia",
+      "code": "PF",
+      "flag": "🇵🇫",
+      "capital": "Papeete",
+      "region": "Polynesia",
+      "eezArea": "4,767,242 sq km",
+      "treaties": 2,
+      "highSeasPockets": 1,
+      "ecsStatus": "France submission",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "France",
+      "map": {
+        "x": 76,
+        "y": 60,
+        "w": 20,
+        "h": 18,
+        "tone": "cyan"
+      },
+      "summary": "The region's largest EEZ profile, spanning broad eastern Pacific boundary relationships.",
+      "related": [
+        "Cook Islands",
+        "Pitcairn Islands",
+        "Kiribati"
+      ]
+    },
+    {
+      "id": "wallis-and-futuna",
+      "name": "Wallis & Futuna",
+      "code": "WF",
+      "flag": "🇼🇫",
+      "capital": "Mata Utu",
+      "region": "Polynesia",
+      "eezArea": "300,760 sq km",
+      "treaties": 1,
+      "highSeasPockets": 0,
+      "ecsStatus": "France submission",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "France",
+      "map": {
+        "x": 53,
+        "y": 65,
+        "w": 7,
+        "h": 9,
+        "tone": "cyan"
+      },
+      "summary": "French territory profile with links to Fiji, Samoa, and Tonga boundary material.",
+      "related": [
+        "Fiji",
+        "Samoa",
+        "Tonga"
+      ]
+    },
+    {
+      "id": "american-samoa",
+      "name": "American Samoa",
+      "code": "AS",
+      "flag": "🇦🇸",
+      "capital": "Pago Pago",
+      "region": "Polynesia",
+      "eezArea": "404,391 sq km",
+      "treaties": 1,
+      "highSeasPockets": 0,
+      "ecsStatus": "United States record",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "United States",
+      "map": {
+        "x": 64,
+        "y": 61,
+        "w": 7,
+        "h": 9,
+        "tone": "cyan"
+      },
+      "summary": "US territory profile with related Samoa and Tokelau records.",
+      "related": [
+        "Samoa",
+        "Tokelau",
+        "Cook Islands"
+      ]
+    },
+    {
+      "id": "pitcairn-islands",
+      "name": "Pitcairn Islands",
+      "code": "PN",
+      "flag": "🇵🇳",
+      "capital": "Adamstown",
+      "region": "Polynesia",
+      "eezArea": "836,108 sq km",
+      "treaties": 0,
+      "highSeasPockets": 0,
+      "ecsStatus": "UK record",
+      "depositedStatus": "No data",
+      "boundaryStatus": "No Data",
+      "unclosStatus": "United Kingdom",
+      "map": {
+        "x": 91,
+        "y": 63,
+        "w": 8,
+        "h": 13,
+        "tone": "cyan"
+      },
+      "summary": "Remote eastern Pacific profile with sparse treaty and boundary records.",
+      "related": [
+        "French Polynesia"
+      ]
+    },
+    {
+      "id": "norfolk-island",
+      "name": "Norfolk Island",
+      "code": "NF",
+      "flag": "🇳🇫",
+      "capital": "Kingston",
+      "region": "Oceania",
+      "eezArea": "428,000 sq km",
+      "treaties": 0,
+      "highSeasPockets": 0,
+      "ecsStatus": "Australia record",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "No Data",
+      "unclosStatus": "Australia",
+      "map": {
+        "x": 35,
+        "y": 84,
+        "w": 7,
+        "h": 8,
+        "tone": "green"
+      },
+      "summary": "Australian external territory profile connected to southwest Pacific data layers.",
+      "related": [
+        "New Caledonia",
+        "Vanuatu"
+      ]
+    },
+    {
+      "id": "guam",
+      "name": "Guam",
+      "code": "GU",
+      "flag": "🇬🇺",
+      "capital": "Hagatna",
+      "region": "Micronesia",
+      "eezArea": "218,000 sq km",
+      "treaties": 0,
+      "highSeasPockets": 0,
+      "ecsStatus": "United States record",
+      "depositedStatus": "Deposited",
+      "boundaryStatus": "In Progress",
+      "unclosStatus": "United States",
+      "map": {
+        "x": 16,
+        "y": 24,
+        "w": 8,
+        "h": 10,
+        "tone": "cyan"
+      },
+      "summary": "US territory profile anchoring western Micronesia records.",
+      "related": [
+        "Micronesia",
+        "Palau"
+      ]
+    }
+  ],
+  "treaties": [
+    {
+      "id": "fiji-tonga-2014",
+      "title": "Fiji-Tonga Maritime Boundary Agreement",
+      "parties": [
+        "Fiji",
+        "Tonga"
+      ],
+      "status": "In force",
+      "signed": "2014",
+      "boundaryType": "EEZ and continental shelf",
+      "documents": 6
+    },
+    {
+      "id": "cook-niue-2012",
+      "title": "Cook Islands-Niue Boundary Treaty",
+      "parties": [
+        "Cook Islands",
+        "Niue"
+      ],
+      "status": "In force",
+      "signed": "2012",
+      "boundaryType": "EEZ",
+      "documents": 5
+    },
+    {
+      "id": "vanuatu-new-caledonia-2024",
+      "title": "Vanuatu-New Caledonia Boundary Instrument",
+      "parties": [
+        "Vanuatu",
+        "New Caledonia"
+      ],
+      "status": "Deposited",
+      "signed": "2024",
+      "boundaryType": "Territorial sea and EEZ",
+      "documents": 4
+    },
+    {
+      "id": "samoa-american-samoa",
+      "title": "Samoa-American Samoa Maritime Arrangement",
+      "parties": [
+        "Samoa",
+        "American Samoa"
+      ],
+      "status": "Technical review",
+      "signed": "Draft",
+      "boundaryType": "EEZ",
+      "documents": 3
+    }
+  ],
+  "datasets": [
+    {
+      "id": "eez-polygons-2026",
+      "title": "Pacific EEZ Polygon Catalogue",
+      "category": "Maritime zones",
+      "records": "22 country layers",
+      "updated": "May 2026",
+      "version": "v2.4"
+    },
+    {
+      "id": "high-seas-pockets-2024",
+      "title": "High Seas Pockets Register",
+      "category": "Declarations",
+      "records": "10 declarations",
+      "updated": "Apr 2026",
+      "version": "v1.8"
+    },
+    {
+      "id": "treaty-lines-2026",
+      "title": "Treaty Boundary Lines",
+      "category": "Treaties",
+      "records": "48 shared boundaries",
+      "updated": "Mar 2026",
+      "version": "v3.1"
+    },
+    {
+      "id": "ecs-submissions",
+      "title": "Extended Continental Shelf Records",
+      "category": "ECS",
+      "records": "17 submissions",
+      "updated": "Jan 2026",
+      "version": "v2.0"
+    }
+  ],
+  "ecsRecords": [
+    {
+      "id": "ck-ecs",
+      "country": "Cook Islands",
+      "status": "Recommendations adopted",
+      "submitted": "2009",
+      "recommendation": "Outer limits publication complete"
+    },
+    {
+      "id": "fj-ecs",
+      "country": "Fiji",
+      "status": "Partial submission",
+      "submitted": "2012",
+      "recommendation": "Additional technical material pending"
+    },
+    {
+      "id": "mh-ecs",
+      "country": "Marshall Islands",
+      "status": "Currently under development",
+      "submitted": "Draft",
+      "recommendation": "Desktop study and evidence collation"
+    },
+    {
+      "id": "vu-ecs",
+      "country": "Vanuatu",
+      "status": "Submitted",
+      "submitted": "2014",
+      "recommendation": "Commission review track"
+    }
+  ],
+  "treatyProgress": [
+    {
+      "year": "2016",
+      "treaties": 2
+    },
+    {
+      "year": "2017",
+      "treaties": 11
+    },
+    {
+      "year": "2018",
+      "treaties": 19
+    },
+    {
+      "year": "2019",
+      "treaties": 27
+    },
+    {
+      "year": "2020",
+      "treaties": 38
+    },
+    {
+      "year": "2021",
+      "treaties": 44
+    },
+    {
+      "year": "2022",
+      "treaties": 44
+    },
+    {
+      "year": "2023",
+      "treaties": 53
+    },
+    {
+      "year": "2024",
+      "treaties": 59
+    }
+  ],
+  "generatedAt": "2026-06-23T00:17:59.243Z"
+}
