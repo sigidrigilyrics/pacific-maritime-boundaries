@@ -142,14 +142,16 @@ function serveStatic(req, res, url) {
   fs.createReadStream(spaIndex).pipe(res);
 }
 
+const GIS_API_URL = new URL(process.env.GIS_API_URL ?? "http://localhost:8000");
+
 function proxyToGis(req, res, url) {
   const targetPath = "/api" + url.pathname.slice("/api/gis".length) + url.search;
   const options = {
-    hostname: "localhost",
-    port: 8000,
+    hostname: GIS_API_URL.hostname,
+    port: Number(GIS_API_URL.port) || (GIS_API_URL.protocol === "https:" ? 443 : 80),
     path: targetPath,
     method: req.method,
-    headers: { ...req.headers, host: "localhost:8000" },
+    headers: { ...req.headers, host: GIS_API_URL.host },
   };
   const proxyReq = http.request(options, (proxyRes) => {
     res.writeHead(proxyRes.statusCode ?? 502, proxyRes.headers);
